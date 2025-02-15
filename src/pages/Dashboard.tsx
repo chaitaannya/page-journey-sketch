@@ -1,7 +1,7 @@
 
 import { Avatar } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
-import { ChartLineUp, Award, PlayCircle } from 'lucide-react';
+import { ChartLine, Award, PlayCircle } from 'lucide-react';
 
 const Dashboard = () => {
   return (
@@ -50,7 +50,7 @@ const Dashboard = () => {
                 <p className="text-gray-400">Thursday, 08 July</p>
               </div>
               <button className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
-                <ChartLineUp className="h-5 w-5" />
+                <ChartLine className="h-5 w-5" />
               </button>
             </div>
 
